@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/backgroundheader">
+
+
+    <ImageView
+        android:id="@+id/circleimageview"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/iconimage" />
+
+    <TextView
+        android:id="@+id/textviewten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/circleimageview"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="19dp"
+        android:layout_toEndOf="@+id/circleimageview"
+        android:layout_toRightOf="@+id/circleimageview"
+        android:text="Pham Tan Phat"
+        android:textColor="#f9f8f7"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/circleimageview"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text="phatdroid94@gmail.com"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:id="@+id/textView" />
+</RelativeLayout>

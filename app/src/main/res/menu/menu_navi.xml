@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/item_import"
+        android:title="Import"
+        android:icon="@android:drawable/ic_menu_camera"/>
+    <item android:id="@+id/item_galery"
+        android:title="Galery"
+        android:icon="@android:drawable/gallery_thumb"/>
+    <item android:id="@+id/item_slideshow"
+        android:title="Slideshow"
+        android:icon="@android:drawable/ic_menu_slideshow"/>
+    <item android:id="@+id/item_tools"
+        android:title="Tools"
+        android:icon="@android:drawable/ic_menu_today"/>
+    <item android:title="Lien he">
+        <menu>
+            <item android:title="Email"
+                android:id="@+id/item_email"
+                android:icon="@android:drawable/ic_dialog_email"/>
+            <item android:title="Email"
+                android:id="@+id/item_phone"
+                android:icon="@android:drawable/stat_sys_phone_call"/>
+        </menu>
+    </item>
+</menu>
